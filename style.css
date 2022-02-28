@@ -1,0 +1,14 @@
+h2, h1 
+{
+    text-transform: uppercase;
+    
+}
+p
+{
+    font-size: larger;
+    border: 1px solid black;
+}
+h1
+{
+    padding-top: 50px;
+}
