@@ -35,11 +35,26 @@ do{
     index++;
 } while (index <4);
 
-// TABLE DE MULTIPLICATION 
+// TABLE DE MULTIPLICATION AVCE FOR
 for (let index = 0; index <= 12; index++) {
     console.log("2 x "+index+" = "+index*2);
     
 }
+
+// TABLE DE MULTIPLICATION AVEC WHILE
+var index=0
+while (index< 13) {
+    console.log("4 x "+index+" = "+index*4);
+    index++ 
+    
+}
+
+// TABLE DE MULTIPLICATION DO WHILE
+var index =0 
+do {
+    console.log("8 x "+index+" = "+index*8);
+    index++
+} while (index < 13);
 
 
 
