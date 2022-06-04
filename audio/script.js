@@ -35,5 +35,11 @@ do{
     index++;
 } while (index <4);
 
+// TABLE DE MULTIPLICATION 
+for (let index = 0; index <= 12; index++) {
+    console.log("2 x "+index+" = "+index*2);
+    
+}
+
 
 
