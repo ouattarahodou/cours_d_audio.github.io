@@ -56,6 +56,26 @@ do {
     index++
 } while (index < 13);
 
+// TABLEAUX 
+var fruits=["orange","pomme","ananas","poire"];
+var names=["kofi","mimo","papi","mami"]
+//  push("")= pour ajouter un élément
+//  pop("")= retier le dernier element
+//  shift("")= retier le premier element 
+//  unshift("") rajouter un element au debut 
+//  splice(2,1,"raisin")= modification de tableaux
+//  join('-')= pour mettre des separation ou des point entre les mots
+
+// LES FONCTIONS EN JS
+var dit_salut = () => {
+    console.log('merci');
+    console.log('merci');
+    
+}
+
+
+
+
 
 
 
