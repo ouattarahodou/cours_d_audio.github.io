@@ -73,7 +73,29 @@ var dit_salut = () => {
     
 }
 
+// LES FONCTIONS EN MATH. TABLE DE MULTIPLICATION
+var multiplication =()  =>{
+    for (let index = 0; index < 13; index++) {
+        console.log("3 x "+index+" = "+index*3);
+         
+        
+    }
+}
 
+// LES OBJETS EN JS
+var cart = {}
+cart.id = '566040'
+cart.name = "peugeot"
+cart.year = 2022 
+
+// 2ème EXEMPLE 
+var cart = {
+    id: "09549",
+    name: "kia",
+    year: 2022 
+
+}
+cart.model = "aveo"
 
 
 
