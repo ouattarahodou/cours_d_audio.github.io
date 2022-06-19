@@ -102,6 +102,10 @@ var css = document.getElementById("css")
 var html = document.getElementById("html")
 var javascript = document.getElementById("javascript")
 
+var section = document.getElementsByClassName("section")
+
+var p = document.getElementsByTagName("p")
+
 
 
 
