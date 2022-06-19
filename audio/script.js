@@ -99,6 +99,8 @@ cart.model = "aveo"
 
 // SELECTION PAR ATTRIBUT ID
 var css = document.getElementById("css")
+var html = document.getElementById("html")
+var javascript = document.getElementById("javascript")
 
 
 
