@@ -107,7 +107,7 @@ var section = document.getElementsByClassName("section")
 var p = document.getElementsByTagName("p")
 
 var papa = document.querySelector(".papa")
-papa.style.backgroundColor = "red"
+papa.style.backgroundColor = "black"
 papa.style.color = "white"
 papa.style.border = "4px solid black"
 
