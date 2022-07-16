@@ -111,6 +111,15 @@ papa.style.backgroundColor = "black"
 papa.style.color = "white"
 papa.style.border = "4px solid black"
 
+// évènements ou abonnement 
+var papa = document.querySelector(".papa")
+var listenerFunction = () => {
+    window.alert("tu veux quoi papa")
+    console.log("tu veux quoi papa")
+   // papa.removeEventListener("click", listenerFunction) =>
+}
+papa.addEventListener("click", listenerFunction)
+
 
 
 
