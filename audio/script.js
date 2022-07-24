@@ -114,11 +114,26 @@ papa.style.border = "4px solid black"
 // évènements ou abonnement 
 var papa = document.querySelector(".papa")
 var listenerFunction = () => {
-    window.alert("tu veux quoi papa")
+    
+    //window.alert("tu veux quoi papa")
+    console.log(this);
     console.log("tu veux quoi papa")
+    
    // papa.removeEventListener("click", listenerFunction) =>
+   
 }
 papa.addEventListener("click", listenerFunction)
+
+// évènement ou abonnement 
+var css = document.querySelector(".css")
+var listenerFunction = () => {
+    console.log(this);
+    console.log("je connais css")
+}
+css.addEventListener("click", listenerFunction)
+
+
+
 
 
 
