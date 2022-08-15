@@ -130,6 +130,7 @@ var listenerFunction = () => {
     console.log(this);
     console.log("je connais css")
 }
+//css.onclick = listenerFunction.cssclick = meme fonction comme celui de bas
 css.addEventListener("click", listenerFunction)
 
 
