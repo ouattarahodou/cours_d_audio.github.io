@@ -12,3 +12,9 @@ h1
 {
     padding-top: 50px;
 }
+nav 
+{
+    font-size: 1.8rem;
+    color: black;
+    text-align: left;
+}
