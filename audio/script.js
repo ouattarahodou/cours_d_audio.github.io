@@ -134,6 +134,17 @@ var listenerFunction = () => {
 css.addEventListener("click", listenerFunction)
 
 
+//********************************************* *// 
+
+window.onload = () =>{
+    var nav = document.querySelector("nav")
+   /* var nav = document.getElementById("nav")
+    var nav = document.getElementsByClassName("nav")*/
+    nav.style.display ="none"
+    setupListeners()
+}
+
+
 
 
 
