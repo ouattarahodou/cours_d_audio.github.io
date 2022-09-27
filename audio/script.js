@@ -142,7 +142,7 @@ window.onload = () =>{
     var nav = document.getElementsByClassName("nav")*/
     nav.style.display ="none"
     setupListeners()
-}
+} 
 
 
 
