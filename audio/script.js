@@ -143,7 +143,7 @@ window.onload = () =>{
     nav.style.display ="none"
     setupListeners()
 } 
-window.onload 
+
 
 
 
